@@ -22,8 +22,8 @@ public class CardsController {
 	@Autowired
 	private CardsService service;
 	
-	@GetMapping("/findAllCardsThisMonth")
-	public ArrayList<Cards> findAllCardsThisMonth() {
-		return service.findAllCardsThisMonth();
+	@GetMapping("/findAllAchievementsThisMonth")
+	public ArrayList<Cards> findAllAchievementsThisMonth() {
+		return service.findAllAchievementsThisMonth();
 	}
 }

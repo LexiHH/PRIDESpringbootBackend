@@ -8,6 +8,6 @@ import com.nationwide.groupproject.data.Cards;
 
 public interface CardsRepo extends JpaRepository<Cards,String> {
 	
-	public ArrayList<Cards> findAllCardsThisMonth();
+	public ArrayList<Cards> findAllAchievementsThisMonth();
 	
 }

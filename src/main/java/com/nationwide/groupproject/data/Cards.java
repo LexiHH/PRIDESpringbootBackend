@@ -8,7 +8,7 @@ import javax.persistence.Table;
 
 @Entity
 @Table(name = "cards")
-@NamedQuery(name = "Cards.findAllCardsThisMonth",
+@NamedQuery(name = "Cards.findAllAchievementsThisMonth",
 			query= "Select c from Cards c where month(c.senddate) = month(now())")
 public class Cards{
 	@Id
