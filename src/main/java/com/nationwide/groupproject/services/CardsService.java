@@ -15,9 +15,9 @@ public class CardsService {
 	@Autowired
 	private CardsRepo repo;
 	
-	public ArrayList<Cards> findAllCardsThisMonth() {
+	public ArrayList<Cards> findAllAchievementsThisMonth() {
 		try {
-			return repo.findAllCardsThisMonth();
+			return repo.findAllAchievementsThisMonth();
 		}
 		catch(Exception e) {
 			System.out.println(e);
